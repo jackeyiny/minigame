@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    $('#button').hover(function(){
+           $('.wrapper').removeClass('an');
+    });
+    $('#button').mouseout(function(){
+        $('.wrapper').addClass('an');
+ }); 
+    $("#hd").click(function(){
+        $("#Mymodal").modal();
+    });
+    $(".hd1").hide();
+    $('#hd').hover(function(){
+        $(".hd1").show();
+ });
+ $('#hd').mouseout(function(){
+    $(".hd1").hide();
+}); 
+});
